@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excel Table Extractor</title>
+</head>
+<body>
+  <!-- Update the form element for file upload -->
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="excelFile" id="excelFileInput" accept=".xlsx">
+    <button type="submit">Extract Table Data</button>
+  </form>
+
+  <div id="tableDataContainer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/exceljs/dist/exceljs.min.js"></script>
+  <script>
+    // Update your JavaScript code as needed
+    // ...
+  </script>
+</body>
+</html>
